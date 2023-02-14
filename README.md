@@ -6,12 +6,13 @@ QR Reader custom component with stencil JS
 Import the following scripts:
 
 ```html
-	<script src="./js/adapter.js"></script> 
-	<script src="./js/zxing_packed.js"></script>
+	
+<script src="./js/adapter.js"></script> 
+<script src="./js/zxing_packed.js"></script>
 
 
-    <script type="module" src="./js/qr-reader.esm.js"></script>
-    <script nomodule src="./js/qr-reader.js"></script>
+<script type="module" src="./js/qr-reader.esm.js"></script>
+<script nomodule src="./js/qr-reader.js"></script>
 ```
 
 Then define the qr-reader component with attributes: 
@@ -25,8 +26,8 @@ Then define the qr-reader component with attributes:
 Then import app.js, which should handle the custom event from the QR reader:
 
 ```html
-    <qr-reader reload-time="5000" after-scan="stopScan"></qr-reader>
-	<script src="./js/app.js"></script>
+<qr-reader reload-time="5000" after-scan="stopScan"></qr-reader>
+<script src="./js/app.js"></script>
 ```
 
 
