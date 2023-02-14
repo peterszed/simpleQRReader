@@ -1,0 +1,1 @@
+import{p as r,b as e}from"./p-cd65946c.js";(()=>{const e=import.meta.url,a={};return""!==e&&(a.resourcesUrl=new URL(".",e).href),r(a)})().then((r=>e([["p-ff31329f",[[1,"qr-reader",{reloadTime:[1032,"reload-time"],afterScan:[1,"after-scan"]}]]]],r)));
