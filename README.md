@@ -19,7 +19,7 @@ Then define the qr-reader component with attributes:
 
 * reload-time in ms
 * after-scan="stop-scan", if you want to stop the scanner after scanning a qr code
-* if you dont define the after-scan attribute, the scanner will reload after your specified time.
+* if you don't define the after-scan attribute, the scanner will reload after your specified time.
 
 
 
